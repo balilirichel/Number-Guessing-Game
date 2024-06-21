@@ -69,7 +69,7 @@ CHECK_ANSWER() {
   USSER_GUESS=$4
   
   #Until they guess the secret number, 
-  #it should print 
+  #it should print i guess
   #It's lower than that, guess again: if the previous input was higher than the secret number, and
   #It's higher than that, guess again: if the previous input was lower than the secret number. 
   #Asking for input each time until they input the secret number.
