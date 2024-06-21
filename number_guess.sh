@@ -72,7 +72,7 @@ CHECK_ANSWER() {
   #it should print i guess
   #It's lower than that, guess again: if the previous input was higher than the secret number, and
   #It's higher than that, guess again: if the previous input was lower than the secret number. 
-  #Asking for input each time until they input the secret number.
+  #Asking for Input each time until they input the secret number.
   if [[ $USSER_GUESS -lt $CORRECT_ANSWER ]]
   then
     echo "It's lower than that, guess again:"
